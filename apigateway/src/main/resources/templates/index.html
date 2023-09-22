@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link href="https://ik.imagekit.io/7al3wgroe/construe/style.css?updatedAt=1695231182793" rel="stylesheet">
+    <title>Construe</title>
+</head>
+<body>
+<div class="main container">
+    <div class="top content">
+        <h1>Construe</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ullam esse quod dolorum obcaecati soluta molestias ex, autem dicta! Similique incidunt dicta totam magnam laboriosam numquam nemo qui autem dolores!</p>
+    </div>
+    <div class="docs content">
+        <h1>Service</h1>
+        <form class="grid" action="new" method="GET">
+            <input type="text" placeholder="your unique API key" readonly th:value="${apikey}">
+            <button>Request API Key</button>
+        </form>
+        <div class="outer">
+            <details>
+                <summary>
+                    <div class="inner">
+                        <h4>POST /translate</h4>
+                    </div>
+                </summary>
+                <p>
+                <h2>Request</h2>
+                <div>
+                    <h3>Header</h3>
+                    <span>Api-Key - YOUR_API_KEY (mandatory) </span>
+                </div>
+                <br>
+                <div>
+                    <h3>Body</h3>
+                    <div>(Plain string in English that needs to be translated)</div>
+                </div>
+                <h2>Response</h2>
+                <div>
+                    <h3>Body</h3>
+                    <div>(Plain translated string in Hindi)</div>
+                </div>
+                </p>
+            </details>
+        </div>
+    </div>
+    <div class="team content">
+        <h1>Team Members</h1>
+        <div class="members">
+            <img src="https://ik.imagekit.io/7al3wgroe/construe/rhitwicka.jpg?updatedAt=1695230646733" alt="Rhitwicka">
+            <img src="https://ik.imagekit.io/7al3wgroe/construe/suhani.jpg?updatedAt=1695230647096" alt="Suhani">
+            <img src="https://ik.imagekit.io/7al3wgroe/construe/anangsha.jpg?updatedAt=1695230646799" alt="Anangsha">
+            <img src="https://ik.imagekit.io/7al3wgroe/construe/sanjit.jpg?updatedAt=1695230646808" alt="Sanjit">
+            <img src="https://ik.imagekit.io/7al3wgroe/construe/suprakash.jpg?updatedAt=1695230647201" alt="Suprakash">
+            <img src="https://scontent.fccu27-2.fna.fbcdn.net/v/t39.30808-6/279145268_1064803351058208_6288925070814074680_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=pkkVnYBHvUEAX-lBJhW&_nc_ht=scontent.fccu27-2.fna&oh=00_AfD-82HfN66wnB1erjpqjVoTmLbsE7j6N2tvrDPeoE8kWg&oe=650FA22A" alt="Ayush">
+        </div>
+    </div>
+</div>
+</body>
+</html>

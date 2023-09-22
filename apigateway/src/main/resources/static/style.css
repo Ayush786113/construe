@@ -1,0 +1,39 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    margin-top: 10px;
+}
+
+.content h1{
+    text-align: center;
+}
+
+h4{
+    color: black;
+}
+
+.docs .outer .inner {
+    background-color: aqua;
+    padding: 5px;
+}
+
+.docs .outer{
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.team .members img{
+    width: 250px;
+    height: 300px;
+}
+
+.team .members{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
